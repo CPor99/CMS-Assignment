@@ -1,0 +1,75 @@
+/*
+Theme Name: Twenty Nineteen Child
+Theme URI: https://wordpress.org/themes/twentynineteen/
+Template: twentynineteen
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Tags: one-column,flexible-header,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,rtl-language-support,sticky-post,threaded-comments,translation-ready,block-patterns
+Version: 2.0.1618300253
+Updated: 2021-04-13 07:50:53
+
+*/
+
+.entry .entry-header {
+    margin: calc(3 * 1rem) calc(10% + 60px) 1rem;
+    background-color: #f0f0f0;
+}
+
+body.page .main-navigation {
+    display: block;
+    font-size: 25px;
+}
+
+.site-title a:link, .site-title a:visited {
+    color: #111;
+    font-family: "Georgia";
+    font-size: 40px;
+}
+
+.entry .entry-title {
+    margin: 0;
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.site-description {
+    display: none;
+}
+
+.entry .entry-content > * > :last-child, .entry .entry-summary > * > :last-child {
+    margin-bottom: 0;
+    width: 1000px;
+}
+
+.entry .entry-content p {
+    word-wrap: break-word;
+    font-size: 25px;
+    color: black;
+}
+
+.entry .entry-content .wp-block-columns .wp-block-column > :first-child {
+    margin-top: 0;
+    color: black;
+}
+
+.entry .entry-content > * > :last-child, .entry .entry-summary > * > :last-child {
+    margin-bottom: 0;
+    width: 1040px;
+    color: black;
+}
+
+#colophon .widget-area, #colophon .site-info {
+    margin: calc(3 * 1rem) calc(10% + 60px);
+    width: 1500px;
+}
+
+.widget_search .search-field {
+    width: 400px;
+}
+
+.widget_search .search-submit {
+    display: block;
+    margin-top: 1rem;
+    width: 400px;
+}
