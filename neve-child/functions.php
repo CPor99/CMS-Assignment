@@ -1,5 +1,4 @@
 <?php
-include('custom-shortcodes.php');
 if ( !defined( 'ABSPATH' ) ) exit;
 
 if ( !function_exists( 'chld_thm_cfg_locale_css' ) ):

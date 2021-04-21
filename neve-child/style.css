@@ -38,13 +38,7 @@ Updated: 2021-04-14 13:28:30
     max-width: 1400px;
 }
 
-.wp-block-buttons > .wp-block-button:last-child {
-    margin-right: 0;
-    background-color: #b82a4b;
-}
-
 .nv-comment-content a, .nv-content-wrap a:not(.button):not(.wp-block-file__button) {
-    color: white;
     font-weight: bold;
     border: none;
 }
@@ -57,6 +51,10 @@ Updated: 2021-04-14 13:28:30
 .has-neve-text-color-color {
     color: var(--nv-text-color) !important;
     font-family: "Georgia";
+}
+
+.has-neve-link-color-color {
+    color: black;
 }
 
 .nv-nav-wrap {
@@ -78,7 +76,14 @@ Updated: 2021-04-14 13:28:30
 .wp-block-buttons > .wp-block-button {
     display: inline-block;
     margin-left: 0;
-    margin-right: .5em;
     margin-bottom: .5em;
-    background-color: #b82a4b;
+}
+
+.wp-block-buttons > .wp-block-button:last-child {
+    margin-right: 0;
+}
+
+.wp-block-columns {
+    display: flex;
+    flex-wrap: wrap;
 }
