@@ -1,0 +1,84 @@
+/*
+Theme Name: Neve Child
+Theme URI: https://themeisle.com/themes/neve/
+Template: neve
+Author: ThemeIsle
+Author URI: https://themeisle.com
+Description: Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL &amp; translation ready. Look no further. Neve is the perfect theme for you!
+Tags: blog,custom-logo,e-commerce,rtl-language-support,grid-layout,one-column,two-columns,custom-background,custom-colors,custom-header,custom-menu,featured-image-header,featured-images,flexible-header,full-width-template,sticky-post,theme-options,threaded-comments,translation-ready,accessibility-ready,wide-blocks,block-styles,footer-widgets,portfolio,left-sidebar,right-sidebar
+Version: 2.10.4.1618406910
+Updated: 2021-04-14 13:28:30
+
+*/
+
+
+.site-logo h1, .site-logo p {
+    font-family: inherit;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.site-logo small {
+    display: none;
+}
+
+#content.neve-main > .container > .row > .nv-sidebar-wrap, #content.neve-main > .container > .row > .nv-sidebar-wrap.shop-sidebar {
+    max-width: 0% !important;
+    display: none;
+}
+
+.builder-item--primary-menu .nav-menu-primary > .nav-ul li:not(.woocommerce-mini-cart-item) > a, .builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret > a, .builder-item--primary-menu .nav-menu-primary > .nav-ul .neve-mm-heading span, .builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret {
+    font-weight: bold;
+    font-size: 17px;
+	text-decoration: none;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+.wp-block-buttons > .wp-block-button:last-child {
+    margin-right: 0;
+    background-color: #b82a4b;
+}
+
+.nv-comment-content a, .nv-content-wrap a:not(.button):not(.wp-block-file__button) {
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+*, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    font-size: 20px;
+}
+
+.has-neve-text-color-color {
+    color: var(--nv-text-color) !important;
+    font-family: "Georgia";
+}
+
+.nv-nav-wrap {
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0;
+    background-color: var(--nv-light-bg) !important;
+	width: 877px;
+}
+
+.nav-ul li {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding: 10px 0;
+    margin-right: 40px;
+}
+
+.wp-block-buttons > .wp-block-button {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: .5em;
+    margin-bottom: .5em;
+    background-color: #b82a4b;
+}
