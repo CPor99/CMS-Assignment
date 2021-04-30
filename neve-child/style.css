@@ -4,86 +4,65 @@ Theme URI: https://themeisle.com/themes/neve/
 Template: neve
 Author: ThemeIsle
 Author URI: https://themeisle.com
-Description: Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL &amp; translation ready. Look no further. Neve is the perfect theme for you!
-Tags: blog,custom-logo,e-commerce,rtl-language-support,grid-layout,one-column,two-columns,custom-background,custom-colors,custom-header,custom-menu,featured-image-header,featured-images,flexible-header,full-width-template,sticky-post,theme-options,threaded-comments,translation-ready,accessibility-ready,wide-blocks,block-styles,footer-widgets,portfolio,left-sidebar,right-sidebar
-Version: 2.10.4.1618406910
-Updated: 2021-04-14 13:28:30
-
+Version: 2.10.4.1619785530
 */
 
-
-.site-logo h1, .site-logo p {
-    font-family: inherit;
-    margin-bottom: 0;
-    font-weight: 600;
-    font-size: 30px;
-}
-
-.site-logo small {
-    display: none;
-}
-
-#content.neve-main > .container > .row > .nv-sidebar-wrap, #content.neve-main > .container > .row > .nv-sidebar-wrap.shop-sidebar {
-    max-width: 0% !important;
-    display: none;
-}
-
-.builder-item--primary-menu .nav-menu-primary > .nav-ul li:not(.woocommerce-mini-cart-item) > a, .builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret > a, .builder-item--primary-menu .nav-menu-primary > .nav-ul .neve-mm-heading span, .builder-item--primary-menu .nav-menu-primary > .nav-ul .has-caret {
-    font-weight: bold;
-    font-size: 17px;
+.nv-comment-content a, .nv-content-wrap a:not(.button):not(.wp-block-file__button) {
+    background-color: #f57e42;
 	text-decoration: none;
 }
 
-.container {
-    max-width: 1400px;
-}
-
-.nv-comment-content a, .nv-content-wrap a:not(.button):not(.wp-block-file__button) {
-    font-weight: bold;
-    border: none;
-}
-
-*, ::after, ::before {
-    -webkit-box-sizing: border-box;
-    font-size: 20px;
-}
-
-.has-neve-text-color-color {
-    color: var(--nv-text-color) !important;
-    font-family: "Georgia";
-}
-
-.has-neve-link-color-color {
-    color: black;
-}
-
-.nv-nav-wrap {
-    flex-direction: row;
-    align-items: center;
-    padding-bottom: 0;
-    background-color: var(--nv-light-bg) !important;
-	width: 877px;
-}
-
-.nav-ul li {
+a {
     cursor: pointer;
-    display: block;
-    position: relative;
-    padding: 10px 0;
-    margin-right: 40px;
+    color: var(--nv-primary-accent);
+    text-decoration: none;
+}
+
+.neve-main {
+    flex: 1 auto;
+    min-height: 1px;
+    background-color: white;
+}
+
+.builder-item--header_search > .search-field form input[type="search"] {
+    height: 45px;
+    font-size: 14px;
+    padding-right: 45px;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 1px 1px 1px 1px;
+    background-color: #f57e42;
+    border-color: #000000;
+}
+
+p {
+    margin-bottom: 20px;
+    font-family: "Verdana";
+}
+
+.wp-block-columns {
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+}
+
+sfsiplus_footerLnk{
+	height: 0px;
+}
+
+.header-main-inner, .header-main-inner a:not(.button), .header-main-inner .navbar-toggle {
+    color: var(--nv-text-color);
+    font-family: "Verdana";
+    font-size: 13px;
 }
 
 .wp-block-buttons > .wp-block-button {
     display: inline-block;
     margin-left: 0;
+    margin-right: .5em;
     margin-bottom: .5em;
+    font-family: "Verdana";
 }
 
-.wp-block-buttons > .wp-block-button:last-child {
-    margin-right: 0;
-}
-
-.wp-block-columns {
-    display: flex;
-    flex-wrap: wrap;
+.wp-block-image.is-style-circle-mask img, .wp-block-image.is-style-rounded img {
+    border-radius: 9999px;
+    margin-left: 50px;
 }
